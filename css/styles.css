@@ -1,0 +1,106 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*General*/	
+h1, h2, h3, p, li, a {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+nav {
+	min-height: 134px;
+	padding-left: 2%;
+    padding-right: 3%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul  li a {
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+.logo {
+	font-size: 2.8em;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+footer {
+	min-height: 134px;
+	font-size: 1.2em;
+}
+
+/*Home*/	
+.hero-text {
+	font-size: 5.6em;
+	font-weight: 800;
+}
+
+.hero-text h2 {
+	letter spacing: 2px;
+}
+
+.intro-container {
+	max-width: 800px;
+}
+
+.intro-container img {
+	max-height: 750px;
+}
+
+em {
+	font-size: 1.8em;
+	color: #703E94;
+	font-weight: 800;
+}
+
+/*Colour Classes*/	
+.bc-purple {
+	background-color: #703E94;
+}
+
+.bc-green {
+	background-color: #89CAC7;
+}
+
+.fc-white {
+	color: #FFFFFF;
+}
+
+/*Flex*/	
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.justify-content-space-evenly{
+	justify-content: space-evenly;
+}
+
+.align-items-center{
+ align-items: center;
+}
+
+/*Alignment*/	
+.right-align {
+	margin-left: auto;
+}
+
+.text-center{
+	text-align:center;
+}
