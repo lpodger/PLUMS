@@ -6,9 +6,24 @@
 }
 
 /*General*/	
+html {
+  scroll-behavior: smooth;
+ }
+ 
 h1, h2, h3, p, li, a {
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
+}
+
+h2 {
+	font-weight: 800;
+	font-size: 2em;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	max-width: 70ch;
+	font-weight: 500;
 }
 
 nav {
@@ -48,12 +63,30 @@ nav ul  li a:hover {
 
 .button:hover {
 	transition: 0.3s;
-	font-size: 1.1em;
+	-webkit-transform: scale(1.1);
+	transform: scale (1.1);
+}
+
+.tilt-1 {
+	transform: rotateY(180deg);
+	background-color: white;
+    display: block;
+}
+
+.tilt-2 {
+	transform: scale(-1);
+	display: block;
+	background-color: white;
+	margin: -1px 0 -1px 0;
 }
 
 footer {
 	min-height: 100px;
 	font-size: 0.8em;
+}
+
+footer p {
+	margin: 0;
 }
 
 /*Home*/	
@@ -82,16 +115,63 @@ em {
 }
 
 .hero-section {
-	padding: 6em;
+	padding: 6em 6em 1em 6em;
 }
 
-.btn1 {
+.btn-1 {
 	position: absolute;
 	top: 78%;
 }
 
 .p1 {
 	margin: 1.5em 0em 4em 0em;
+}
+
+.why-plums-container {
+    margin-left: 10%;
+	max-width: 20%;
+}
+
+.why-plums-container h2 {
+	align-self: center;
+	margin: 0 0 1.3em 0;
+}
+
+.section-2 {
+	padding: 5em;
+}
+
+.btn-2 {
+	position: absolute;
+	top: 80%;
+}
+
+.btn-3 {
+	position: absolute;
+	top: 84%;
+	min-width: 6.1%;
+}
+
+.card-container {
+	position: relative;
+	padding: 5em 8em 15em 8em;
+}
+
+.card {
+	border-radius: 40px;
+    background-color: white;
+	min-height: 600px;
+	max-width: 18%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding: 3em;
+	box-shadow: 0px 2px 3px rgb(0 0 0 / 25%);
+}
+
+.card h2 {
+	padding: 1em 0 1em 0;
+	font-size: 1.7em;
 }
 
 /*Colour Classes*/	
@@ -103,8 +183,16 @@ em {
 	background-color: #89CAC7;
 }
 
+.bc-white {
+	background-color: #FFFFFF;
+}
+
 .fc-white {
 	color: #FFFFFF;
+}
+
+.fc-black {
+	color: #000000;
 }
 
 /*Flex*/	
@@ -125,6 +213,11 @@ em {
 	justify-content: space-evenly;
 }
 
+.justify-content-space-around{
+	justify-content: space-around;
+}
+
+
 .align-items-center{
  align-items: center;
 }
@@ -138,8 +231,6 @@ em {
 	margin-left: auto;
 }
 
-.text-center{
+.text-center {
 	text-align:center;
 }
-
-
