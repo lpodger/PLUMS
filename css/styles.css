@@ -333,3 +333,63 @@ label {
 	position: absolute;
 	top: 81%;
 	min-width: 169px;
+}
+
+/*Staff Login*/
+
+.login img {
+	max-width: 385px;
+	margin-top: 6em;
+	margin-bottom: 2em;
+}
+
+.login-form-section {
+	width: 25%;
+}
+
+/* Full-width inputs */
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #703E94;
+  border-radius: 50px;
+  width: 48%;
+}
+
+.submit-button {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 700;
+    border: none;
+    color: white;
+    font-size: 20px;
+	background-color: #703E94;
+}
+
+fieldset {
+	border: none;
+	margin-top: 2em;
+}
+
+fieldset label {
+	margin: 0 1em 0 0;
+	font-size : 1.1em;
+	font-weight: 800;
+}
+
+legend {
+	display: none;
+}
+
+fieldset:hover {
+    border-color: #703E94 ;
+}
+
+.submit {
+	margin: 2em auto 12em auto;
+	width: 70%;
+}
+
+.form {
+	margin-bottom: 0.5em;
+}
