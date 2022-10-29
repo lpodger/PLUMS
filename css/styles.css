@@ -797,7 +797,137 @@ footer nav ul li a {
 	width: 100%;
 	margin: 4em auto 4em auto;
 }
+}
 
 /*Mobile*/
 @media (max-width: 425px) {
+	
+/*Home Mobile*/
+.hero-section img {
+    max-width: 370px;
+}
+
+h2 { 
+font-size: 1.7em;
+}
+
+.section-2 {
+	padding: 5em 3em 8em 3em;
+}
+
+.section-2 img {
+	max-width: 370px;
+}
+
+.why-plums-container h2 {
+	font-size: 1.7em;
+}
+
+.why-plums-container {
+	max-width: 100%;
+}
+
+.card {
+	max-width: 350px;
+	margin-bottom: 3em
+}
+
+.btn-3 {
+    top: 95%;
+}
+
+.card-container {
+    padding: 5em 8em 7em 8em;
+}
+
+/*Login Mobile*/
+.login-container {
+    margin-top: 4vh;
+}
+
+.login-form-section {
+    width: 80%;
+}
+
+.form {
+	flex-direction: column;
+}
+
+label {
+	align-self: flex-start;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.submit {
+	margin: 2em auto 2em auto;
+}
+
+/*Login-Success Mobile*/
+.success {
+    margin-top: 17vh;
+}
+
+/*Question Mobile*/
+.question-container img {
+    max-width: 370px;
+}
+.question-container {
+	margin-left: 0em !important;
+	margin-right: 0em !important;
+}
+
+.question-card {
+	padding: 2em;
+}
+
+.progress-bar {
+	max-width: 100px !important;
+}
+
+/*Results Mobile*/
+.results-hero {
+	padding: 1em 2em 3em 2em;
+}
+
+.results-container img {
+	max-width: 300px;
+}
+
+.grade {
+    top: 3%;
+    left: 41%;
+}
+
+.arrow-1 {
+    left: 23%;
+}
+
+.arrow-2 {
+    left: 20%;
+}
+
+.results-card .card img {
+	max-width: 300px;
+}
+
+.results-card {
+	margin-bottom: 1em;
+	padding: 5em 1em 0em 1em;
+}
+
+.results-card .card {
+	margin-bottom: 0.5em;
+}
+
+.card-container-2 {
+padding: 5em 8em 1em 8em;
+}
+
+.to-do-list p {
+	font-size: 0.8em;
+}
+}
 	
