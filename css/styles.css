@@ -41,6 +41,9 @@ nav {
 	min-height: 100px;
 	padding-left: 1.5%;
     padding-right: 1.5%;
+	background-color: #703E94;
+	display: flex;
+	align-items: center;
 }
 
 nav ul {
@@ -357,6 +360,10 @@ label {
 /*Results*/
 .results-hero {
 	margin: 0px 8% 0 8%;
+}
+
+.results-card {
+	padding-bottom: 0;
 }
 
 .results-container {
