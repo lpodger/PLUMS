@@ -565,6 +565,7 @@ fieldset:hover {
 	display: flex;
     justify-content: center;
 	margin-top: 2em;
+	position: relative;
 }
 
 .success {
@@ -578,7 +579,7 @@ fieldset:hover {
 
 .btn-5 {
 	position: absolute;
-	top: 68%;
+	top: 205%;
 	min-width: 169px;
 }
 
