@@ -584,20 +584,32 @@ fieldset:hover {
 }
 
 
-/*Mobile*/
-	
+/*Tablet*/
+@media only screen and (min-width: 768px) { 
+
 /*Home Mobile*/
-
-/*Login Mobile*/
-
-
-
-/*Login-Success Mobile*/
-
 
 /*Question Mobile*/
 
 /*Results Mobile*/
+
+/*Login Tablet*/
+
+.login-container {
+	position: fixed; 
+	top: 50%;
+	left: 50%;
+}
+
+/*Login-Success Mobile*/
+
+
+}
+
+
+
+
+
 
 
 
