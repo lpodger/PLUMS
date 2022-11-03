@@ -6,6 +6,13 @@
 }
 
 /*General*/	
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 
 body {
 	display: flex;
@@ -357,8 +364,13 @@ label {
 	padding: 5em 1.5em 3em 1.5em;
 }
 
+.underline-small {
+	margin-top: 2em;
+}
+
+
 .results-card-container {
-    padding: 6em 1.5em 2em 1.5em;
+    padding: 4em 1.5em 2em 1.5em;
 }
 
 .results-container {
@@ -434,7 +446,7 @@ label {
 
 .results-form-section {
 	max-width: 445px;
-	padding: 0 1em 0 1em;
+	padding: 0 1.5em 0 1.5em;
 	margin-bottom: 2.7em;
 }
 
@@ -536,7 +548,7 @@ fieldset:hover {
 }
 
 .submit {
-	margin: 2em auto 0 auto;
+	margin: 2.5em auto 0 auto;
 	width: 70%;
 	text-align: center;
 	display: flex;
