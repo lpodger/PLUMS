@@ -387,7 +387,7 @@ label {
 }
 
 .results-card {
-	border-radius: 40px;
+	border-radius: 20px;
     background-color: white;
 	min-height: 600px;
 	max-width: 420px;
@@ -478,7 +478,7 @@ label {
 	margin-bottom: 0;
     padding: 1rem;
     border: solid 3px #703E94;
-    border-radius: 45px;
+    border-radius: 20px;
 	text-align: center;
 	font-size: 0.7em;
 }
@@ -650,6 +650,7 @@ fieldset:hover {
 	
 	.to-do-list {
 		font-size: 0.9em;
+		padding: 1rem 0.5rem 1rem 0.5rem;
 	}
 
 	/*Login Tablet*/
@@ -729,8 +730,43 @@ fieldset:hover {
 		margin: 0em 0 1em 0;
 	}
 
-
-
+	/*Results Tablet*/
+	.results-hero {
+		flex-direction: row;
+		justify-content: center;
+		padding: 6em 6em 0em 6em;
+	}
+	
+	.results-hero :nth-child(2) {
+		scale: 1;
+		margin-top: 0;
+		content: url(../images/underline-word-big.svg) !important;
+		width: 100%;
+	}
+	
+	.results-container {
+		flex-direction: row;
+		padding: 11em 4em 5em 4em;
+	}
+	
+	.grade {
+	top: 10%;
+    left: 21%;
+	}
+	
+	.results-form-container {
+		flex-direction: row;
+		gap: 9em;
+		padding: 0 0 7em 0;
+	}
+	.results-card {
+		padding-bottom: 1.5em;
+	}
+	
+	.results-form-section .submit {
+		margin: 2.5em 0 0 auto;
+	}
+	
 }
 
 
