@@ -840,19 +840,19 @@ fieldset:hover {
 
 /*4k*/
 @media only screen and (min-width: 2560px) {
-	/*Home 4k*/
+	/*Question 4k*/
 	.question-container img {
 		max-width: 40% !important;
 	}
 	
+	.question-container {
+	    padding: 15.5em 5em 2.5em 5em;
+	}
 	
-	/*Home Desktop*/
+	/*Results 4k*/
 	.results-container {
 		justify-content: center;
 	}
-	
-	
-	
 	
 }
 
