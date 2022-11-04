@@ -370,12 +370,13 @@ label {
 }
 
 .results-container {
-	padding: 11em 1em 0em 1em;
+	padding: 11em 1em 5em 1em;
 	position: relative;
 	background-color: white;
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: column;
+	gap: 5em;
 }
 
 .results-card {
@@ -400,7 +401,7 @@ label {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 9em;
+	padding-bottom: 5.5em;
 }
 
 .arrow-1 {
@@ -420,17 +421,17 @@ label {
 
 .btn-6 {
 	position: absolute;
-	top: 77%;
+	bottom: 0;
 }
 
 .btn-7 {
 	position: absolute;
-	top: 71%;
+	bottom: 0;
 }
 
 .btn-8 {
 	position: absolute;
-	top: 76%;
+	bottom: 0;
 }
 
 .results-form-container {
@@ -443,7 +444,7 @@ label {
 .results-form-section {
 	max-width: 445px;
 	padding: 0 1.5em 0 1.5em;
-	margin-bottom: 2.7em;
+	margin-bottom: 3.1em;
 }
 
 .results-form-section p {
@@ -604,12 +605,27 @@ fieldset:hover {
 		padding: 1.5em 6em 6em 6em;
 	}
 	
-	/*Question Mobile*/
+	/*Question Tablet*/
 	.question-container {
 		padding: 1.5em 6em 2.5em 6em;
 	}
 
-	/*Results Mobile*/
+	/*Results Tablet*/
+	.results-hero {
+		padding: 6em 6em 0em 6em;
+	}
+	
+	.level-container {
+		padding-bottom: 6.5em;
+	}
+	
+	.results-card-container {
+		padding: 4em 1.5em 3em 1.5em;
+	}
+	
+	.to-do-list {
+		font-size: 0.9em;
+	}
 
 	/*Login Tablet*/
 
@@ -620,7 +636,7 @@ fieldset:hover {
 		transform: translate(-50%, -50%);
 	}
 
-	/*Login-Success Mobile*/
+	/*Login-Success Tablet*/
 	.success {
 		position: fixed; 
 		top: 40%;
