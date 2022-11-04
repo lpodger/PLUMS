@@ -821,6 +821,9 @@ fieldset:hover {
 		gap: 0;
 	}
 	
+	.results-form-container {
+		padding: 0 0 8em 0;
+	}
 
 	.arrow-1 {
 		display: block;
@@ -853,6 +856,7 @@ fieldset:hover {
 	.results-container {
 		justify-content: center;
 	}
+	
 	
 }
 
