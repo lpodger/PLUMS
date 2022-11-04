@@ -672,7 +672,7 @@ fieldset:hover {
 
 /*Laptop*/
 @media only screen and (min-width: 1440px) { 
-	/*Home Tablet*/
+	/*Home Laptop*/
 	.hero-section {
 		flex-direction: row;
 		justify-content: center;
@@ -700,7 +700,7 @@ fieldset:hover {
 		top: 84%;
 	}
 	
-	/*Question Tablet*/
+	/*Question Laptop*/
 	.question-container {
 		justify-content: center;
 		flex-direction: row;
@@ -730,18 +730,23 @@ fieldset:hover {
 		margin: 0em 0 1em 0;
 	}
 
-	/*Results Tablet*/
+	/*Results Laptop*/
 	.results-hero {
 		flex-direction: row;
 		justify-content: center;
 		padding: 6em 6em 0em 6em;
+		gap: 2em;
+	}
+	
+	.results-hero img {
+		max-width: 700px;
 	}
 	
 	.results-hero :nth-child(2) {
 		scale: 1;
 		margin-top: 0;
 		content: url(../images/underline-word-big.svg) !important;
-		width: 100%;
+		max-width: 500px;
 	}
 	
 	.results-container {
@@ -757,8 +762,13 @@ fieldset:hover {
 	.results-form-container {
 		flex-direction: row;
 		gap: 9em;
-		padding: 0 0 7em 0;
+		padding: 0 0 4em 0;
 	}
+	
+	.results-form-section {
+		margin-bottom: 0;
+	}
+	
 	.results-card {
 		padding-bottom: 1.5em;
 	}
@@ -769,6 +779,61 @@ fieldset:hover {
 	
 }
 
+/*Desktop*/
+@media only screen and (min-width: 1920px) { 
+	/*Home Desktop*/
+	.hero-section img {
+		max-width: 100% !important;
+	}
+	
+	.hero-section {
+		padding: 6.5em 10em 8em 10em
+	}
+	
+	.card-container {
+		justify-content: center;
+		gap: 7em;
+	}
+	
+	.card {
+		padding: 2em 1.5em 2em 1.5em;
+	}
+	
+	/*Question Desktop*/
+	.question-container img {
+		max-width: 54%;
+	}
+
+	/*Results Desktop*/
+	.results-hero {
+		padding: 9em 6em 6em 6em;
+	}
+	
+	.results-hero img {
+		max-width: 100%;
+	}
+	
+	.results-hero :nth-child(2) {
+		max-width: 650px;
+	}
+	
+	.results-container {
+		gap: 0;
+	}
+	
+
+	.arrow-1 {
+		display: block;
+	}
+	
+	.arrow-2 {
+		display: block;
+	}
+	
+	.grade {
+		content: url(../images/start.svg);
+		left: 27%;
+	}
 
 
 
