@@ -259,7 +259,7 @@ em {
 .question-container {
 	display: flex;
 	flex-direction: column-reverse;
-	padding: 1.5em;
+	padding: 1.5em 1.5em 2.5em 1.5em;
 }
 
 .question-card {
@@ -347,7 +347,7 @@ label {
 
 .btn-4 {
 	position: absolute;
-	top: 97%;
+	top: 100%;
 	min-width: 169px;
 }
 
@@ -595,8 +595,23 @@ fieldset:hover {
 	footer nav ul { 
 		display: none;
 	}
-		
+	
+	footer {
+		justify-content: center;
+	}
+	
+	.hero-section {
+		padding: 1.5em 6em 6em 6em;
+	}
+	
+	.section-2 {
+		padding: 1.5em 6em 6em 6em;
+	}
+	
 	/*Question Mobile*/
+	.question-container {
+		padding: 1.5em 6em 2.5em 6em;
+	}
 
 	/*Results Mobile*/
 
