@@ -751,12 +751,12 @@ fieldset:hover {
 	
 	.results-container {
 		flex-direction: row;
-		padding: 11em 4em 5em 4em;
+		padding: 11em 4em 8em 4em;
 	}
 	
 	.grade {
-	top: 10%;
-    left: 21%;
+		top: 10%;
+		left: 21%;
 	}
 	
 	.results-form-container {
@@ -801,7 +801,7 @@ fieldset:hover {
 	
 	/*Question Desktop*/
 	.question-container img {
-		max-width: 54%;
+		max-width: 54% !important;
 	}
 
 	/*Results Desktop*/
@@ -824,10 +824,12 @@ fieldset:hover {
 
 	.arrow-1 {
 		display: block;
+		padding-right: 0.5em;
 	}
 	
 	.arrow-2 {
 		display: block;
+		padding-right: 0.5em;
 	}
 	
 	.grade {
