@@ -5,6 +5,12 @@
 	box-sizing: border-box;
 }
 
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
 /*General*/	
 body {
 	display: flex;
