@@ -18,6 +18,7 @@ main {
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
  }
  
  img {
