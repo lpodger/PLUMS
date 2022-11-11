@@ -783,11 +783,11 @@ fieldset:hover {
 @media only screen and (min-width: 1920px) { 
 	/*Home Desktop*/
 	.hero-section img {
-		max-width: 100% !important;
+		max-width: 750px !important;
 	}
 	
 	.hero-section {
-		padding: 6.5em 10em 8em 10em
+		padding: 4.5em 10em 7em 10em
 	}
 	
 	.card-container {
@@ -803,14 +803,18 @@ fieldset:hover {
 	.question-container img {
 		max-width: 54% !important;
 	}
+	
+	.question-container {
+		padding: 6em 5em 2.5em 5em;
+	}
 
 	/*Results Desktop*/
 	.results-hero {
-		padding: 9em 6em 6em 6em;
+		padding: 7em 6em 6em 6em;
 	}
 	
 	.results-hero img {
-		max-width: 100%;
+		max-width: 750px%;
 	}
 	
 	.results-hero :nth-child(2) {
